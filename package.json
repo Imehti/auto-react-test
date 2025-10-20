@@ -1,0 +1,46 @@
+ {
+  "name": "auto-react-test",
+  "version": "1.5.0",
+  "description": "Automatically generates test files for React components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "auto-react-test": "./dist/cli/generate-test-file.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "testing",
+    "jest",
+    "typescript",
+    "rtl"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.28.4",
+    "@babel/traverse": "^7.28.4",
+    "@babel/types": "^7.28.4",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.5",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "axios": "^1.12.2"
+  }
+}
