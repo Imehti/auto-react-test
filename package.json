@@ -1,6 +1,6 @@
- {
+{
   "name": "auto-react-test",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Automatically generates test files for React components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
